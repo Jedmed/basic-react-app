@@ -6,5 +6,8 @@
     "es6": true,
     "mocha": true
   },
-  "rules": {}
+  "rules": {
+    "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": 0 }]
+  }
 }
